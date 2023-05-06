@@ -1,14 +1,10 @@
 //Given an array of strings, use a function to reverse all the elements in the string in ascending order and the specific elements in descending order
 function array_of_string(element)
+ array_of_string.split("").reverse().join("")
 
+ Array.sort(element .ascending)
 
-
-
-
-
-
-
-
+ return(.specific(element.descending));
 
 
 
@@ -31,23 +27,31 @@ console .log (Adult);
 
 
 //Using JS functions and an array of numbers, return positive if an element within the array is positive, negative if an element is negative, else zero
-const sumPositive = (numbers) => {
-let elements  = [0,1-2.3-4.5.];
-if (element=(postive)) 
-return postive
+const sumPositive = (numbers) =>{
+let numbers  = [1-2,3-4,5,]
+
+if (element=("postive") )
+return positive
+
 }
-else{
+  else{
+
     return(zero);
 }
 
 
 //Given an array of objects, where each object represents an employee with an id, name, and salary property, write a function that returns a new array of employee objects sorted by their salary in ascending order.
-const employee =
-{name:"Janet",id:"Tipanoi Shirin",salary:5,000}
-{name:"Ann",id:"Kamondo Hillary",salary:4,000}
-{name:"Yvonne",id:"Adhiambo Akinyi",salary:25,000}
+ const employee =[
 
-const array(properties)=>{
-    return array.sorted(descending)
-}
+     {name:"Janet", id:12,salary:5000}
+     {name:"Ann",   id:23,salary:4000},
+     {name:"Yvonne",id: 5,salary:25000},
+]
+ function peopleproperties (employee)
+    const sort =details.sort((x,y)=>x.salary - y.salary);
+    return sort;
+ salary.sort (ascending);
+
+
+console.log(peopleProperties) 
 
